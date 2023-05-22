@@ -1,0 +1,51 @@
+.grid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+    
+    /* height: 600px; */
+    /* width: 600px; */
+}
+table{
+    margin:20px;
+    border: 1px solid green;
+
+}
+tr td{
+    padding: 2px 35px;
+    font-size: 15px;
+}
+#toss{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(227, 247, 116);
+    color: rgb(40, 146, 240);
+    font-size: 25px;
+    font-weight: 800;
+    border-radius: 5px;
+
+}
+#tossOne{
+    height: 70px;
+    width: 150px;
+    background-color: rgb(227, 247, 116);
+    color: rgb(40, 146, 240);
+    font-size: 25px;
+    font-weight: 800;
+    border-radius: 5px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+.players p{
+    font-size: 25px;
+    margin: 10px 20px;
+    padding-top: 10px;
+}
+
+  
